@@ -1,0 +1,4 @@
+schematics ckt-dccsa.sch
+output-name ../pcb/ckt-dccsa
+skip-m4
+elements-dir ../../../footprints
