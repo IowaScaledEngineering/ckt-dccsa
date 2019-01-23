@@ -798,10 +798,10 @@ Attribute("PCB::grid::size" "5.00mil")
 Via[610.00mil 420.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
 Via[645.00mil 420.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
 Via[575.00mil 420.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
-Via[650.00mil 640.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
-Via[650.00mil 675.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[580.00mil 640.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[580.00mil 675.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
 
-Element["hidename" "0805" "R1" "100?" 600.00mil 620.00mil 21.50mil 111.50mil 2 77 ""]
+Element["hidename" "0805" "R1" "100?" 630.00mil 620.00mil 21.50mil 111.50mil 2 77 ""]
 (
 	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 0.0000 57.18mil "1" "1" "square"]
 	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 51.18mil 0.0000 57.18mil "2" "2" "square"]
