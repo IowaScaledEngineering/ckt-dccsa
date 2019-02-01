@@ -21,9 +21,9 @@ symversion=0.1
 T 2800 5300 5 10 1 1 0 7 1
 value=470uF
 T 2800 5100 5 10 1 1 0 7 1
-footprint=2917
+footprint=2924
 T 4000 6100 5 10 0 1 0 6 1
-device=TCJ5477M016R0100
+device=TCN4477M016R0100
 }
 C 5400 4900 1 0 0 schottky-diode-1.sym
 {
@@ -42,7 +42,7 @@ T 5850 6150 5 10 1 1 0 3 1
 refdes=R1
 T 5850 5850 5 10 1 1 0 5 1
 value=100Ω
-T 5400 5900 5 10 0 0 0 0 1
+T 6200 6100 5 10 1 1 0 0 1
 footprint=1206
 }
 C 4600 4900 1 90 0 zener-1.sym
@@ -86,9 +86,9 @@ symversion=0.1
 T 1600 5300 5 10 1 1 0 7 1
 value=470uF
 T 1600 5100 5 10 1 1 0 7 1
-footprint=2917
+footprint=2924
 T 2800 6100 5 10 0 1 0 6 1
-device=TCJ5477M016R0100
+device=TCN4477M016R0100
 }
 N 1900 6000 1900 5800 4
 N 1900 4900 1900 4700 4
