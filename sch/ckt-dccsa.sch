@@ -43,7 +43,7 @@ refdes=R1
 T 5850 5850 5 10 1 1 0 5 1
 value=100Ω
 T 5400 5900 5 10 0 0 0 0 1
-footprint=0805
+footprint=1206
 }
 C 4600 4900 1 90 0 zener-1.sym
 {
