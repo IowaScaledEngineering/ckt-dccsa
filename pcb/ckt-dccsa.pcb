@@ -793,44 +793,20 @@ Symbol['~' 12.00mil]
 	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
-Attribute("PCB::grid::unit" "mm")
+Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "5.00mil")
-Via[135.00mil 480.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
-Via[170.00mil 480.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
-Via[250.00mil 490.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
-Via[285.00mil 490.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[335.00mil 325.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[335.00mil 355.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[135.00mil 325.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[135.00mil 355.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[130.00mil 535.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[165.00mil 535.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[200.00mil 535.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[240.00mil 495.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[275.00mil 495.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[310.00mil 495.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
 
-Element["hidename" "SOD123T" "D2" "unknown" 385.00mil 595.00mil 25.00mil 15.00mil 2 77 ""]
-(
-	Pad[-10.00mil -65.00mil 10.00mil -65.00mil 55.00mil 0.0000 61.00mil "1" "1" "square"]
-	Pad[-10.00mil 65.00mil 10.00mil 65.00mil 55.00mil 0.0000 61.00mil "2" "2" "square"]
-	ElementLine [48.00mil -105.00mil 48.00mil 105.00mil 10.00mil]
-	ElementLine [-48.00mil -105.00mil -48.00mil 105.00mil 10.00mil]
-	ElementLine [-48.00mil 105.00mil 48.00mil 105.00mil 10.00mil]
-	ElementLine [-48.00mil -105.00mil 48.00mil -105.00mil 10.00mil]
-	ElementLine [-48.00mil 25.00mil 48.00mil 25.00mil 10.00mil]
-
-	)
-
-Element["" "1206" "R1" "100?" 385.00mil 395.00mil -25.00mil -30.00mil 0 100 ""]
-(
-	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 0.0000 57.18mil "1" "1" "square"]
-	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
-	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 10.00mil]
-	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 10.00mil]
-
-	)
-
-Element["hidename" "2924" "C1" "470uF" 210.00mil 480.00mil -25.00mil 0.0000 0 100 ""]
-(
-	Pad[-1.3000mm 2.7000mm 1.3000mm 2.7000mm 2.2000mm 0.0000 2.3524mm "1" "1" "square"]
-	Pad[-0.7000mm -2.1000mm 0.7000mm -2.1000mm 3.4000mm 0.0000 3.5524mm "2" "2" "square"]
-	ElementLine [-3.1500mm -3.6500mm -3.1500mm 3.6500mm 10.00mil]
-	ElementLine [3.1500mm -3.6500mm 3.1500mm 3.6500mm 10.00mil]
-
-	)
-
-Element["hidename,onsolder" "2924" "C2" "470uF" 210.00mil 500.00mil -31.50mil -31.50mil 1 100 "auto"]
+Element["hidename,onsolder" "2924" "C2" "470uF" 210.00mil 540.00mil -31.50mil -31.50mil 1 100 "auto"]
 (
 	Pad[-1.3000mm -2.7000mm 1.3000mm -2.7000mm 2.2000mm 0.0000 2.3524mm "1" "1" "onsolder,square"]
 	Pad[-0.7000mm 2.1000mm 0.7000mm 2.1000mm 3.4000mm 0.0000 3.5524mm "2" "2" "onsolder,square"]
@@ -839,71 +815,109 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 210.00mil 500.00mil -31.50mil -3
 
 	)
 
-Element["onsolder" "SOD128" "Z1" "unknown" 385.00mil 425.00mil 25.00mil -25.00mil 2 100 "auto"]
+Element["hidename" "2924" "C1" "470uF" 210.00mil 540.00mil 25.00mil 0.0000 2 100 ""]
 (
-	Pad[-0.3000mm -2.2000mm 0.3000mm -2.2000mm 1.4000mm 0.0000 1.5524mm "2" "2" "onsolder,square"]
-	Pad[-0.3000mm 2.2000mm 0.3000mm 2.2000mm 1.4000mm 0.0000 1.5524mm "1" "1" "onsolder,square"]
-	ElementLine [-1.2500mm -3.2000mm -1.2500mm 3.2000mm 10.00mil]
+	Pad[-1.3000mm -2.7000mm 1.3000mm -2.7000mm 2.2000mm 0.0000 2.3524mm "1" "1" "square"]
+	Pad[-0.7000mm 2.1000mm 0.7000mm 2.1000mm 3.4000mm 0.0000 3.5524mm "2" "2" "square"]
+	ElementLine [3.1500mm -3.6500mm 3.1500mm 3.6500mm 10.00mil]
+	ElementLine [-3.1500mm -3.6500mm -3.1500mm 3.6500mm 10.00mil]
+
+	)
+
+Element["" "SOD128" "Z1" "unknown" 385.00mil 575.00mil -25.00mil -25.00mil 0 100 ""]
+(
+	Pad[-0.3000mm -2.2000mm 0.3000mm -2.2000mm 1.4000mm 0.0000 1.5524mm "2" "2" "square"]
+	Pad[-0.3000mm 2.2000mm 0.3000mm 2.2000mm 1.4000mm 0.0000 1.5524mm "1" "1" "square"]
 	ElementLine [1.2500mm -3.2000mm 1.2500mm 3.2000mm 10.00mil]
+	ElementLine [-1.2500mm -3.2000mm -1.2500mm 3.2000mm 10.00mil]
 	ElementLine [-1.2500mm -3.2000mm 1.2500mm -3.2000mm 10.00mil]
 	ElementLine [-1.2500mm 3.2000mm 1.2500mm 3.2000mm 10.00mil]
 	ElementLine [-1.2500mm -1.2000mm 1.2500mm -1.2000mm 10.00mil]
 
 	)
 
-Element["hidename" "" "J1" "" 195.00mil 665.00mil 0.0000 0.0000 0 100 ""]
+Element["hidename" "0805" "R1" "100?" 385.00mil 372.00mil -31.50mil 31.50mil 1 100 ""]
 (
-	Pad[-77.50mil 2.50mil 87.50mil 2.50mil 45.00mil 0.0000 53.00mil "" "1" "square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 51.18mil 0.0000 57.18mil "1" "1" "square"]
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 0.0000 57.18mil "2" "2" "square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 10.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 10.00mil]
 
 	)
 
-Element["hidename,onsolder" "" "J2" "" 385.00mil 620.00mil 0.0000 0.0000 0 100 "auto"]
+Element["hidename" "DO-219AD" "D1" "unknown" 270.00mil 340.00mil 10.00mil 25.00mil 0 100 ""]
 (
-	Pad[0.0000 -15.00mil 0.0000 30.00mil 80.00mil 0.0000 88.00mil "" "1" "onsolder,square"]
+	Pad[0.0000 0.0000 0.0000 0.0000 0.8000mm 0.0000 0.9524mm "1" "1" "square,edge2"]
+	Pad[-2.3500mm 0.0000 -1.4500mm 0.0000 1.1000mm 0.0000 1.2524mm "2" "2" "square"]
+	ElementLine [-2.4000mm -0.7000mm -0.1000mm -0.7000mm 10.00mil]
+	ElementLine [-2.4000mm 0.7000mm -0.1000mm 0.7000mm 10.00mil]
+
+	)
+
+Element["hidename,onsolder" "" "J1" "" 385.00mil 400.00mil 0.0000 0.0000 0 100 "auto"]
+(
+	Pad[0.0000 -50.00mil 0.0000 45.00mil 80.00mil 0.0000 88.00mil "" "1" "onsolder,square"]
+
+	)
+
+Element["hidename,onsolder" "" "J2" "" 385.00mil 610.00mil 0.0000 0.0000 0 100 "auto"]
+(
+	Pad[0.0000 -55.00mil 0.0000 40.00mil 80.00mil 0.0000 88.00mil "" "1" "onsolder,square"]
 
 	)
 Layer(1 "component")
 (
-	Line[110.00mil 315.00mil 100.00mil 325.00mil 10.00mil 16.00mil "clearline"]
-	Line[100.00mil 325.00mil 100.00mil 655.00mil 10.00mil 16.00mil ""]
-	Line[110.00mil 315.00mil 315.00mil 315.00mil 10.00mil 16.00mil "clearline"]
-	Line[315.00mil 315.00mil 335.00mil 335.00mil 10.00mil 16.00mil "clearline"]
-	Line[335.00mil 335.00mil 385.00mil 335.00mil 10.00mil 16.00mil "clearline"]
 	Polygon("clearpoly")
 	(
-		[345.00mil 425.00mil] [425.00mil 425.00mil] [425.00mil 560.00mil] [345.00mil 560.00mil] 
+		[250.00mil 320.00mil] [290.00mil 320.00mil] [290.00mil 400.00mil] [250.00mil 400.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-		[425.00mil 560.00mil] [265.00mil 560.00mil] [265.00mil 510.00mil] [425.00mil 510.00mil] 
+		[315.00mil 310.00mil] [425.00mil 310.00mil] [425.00mil 370.00mil] [315.00mil 370.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-		[115.00mil 495.00mil] [195.00mil 495.00mil] [195.00mil 330.00mil] [115.00mil 330.00mil] 
+		[115.00mil 310.00mil] [240.00mil 310.00mil] [240.00mil 370.00mil] [115.00mil 370.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-		[305.00mil 475.00mil] [230.00mil 475.00mil] [230.00mil 630.00mil] [305.00mil 630.00mil] 
+		[425.00mil 690.00mil] [110.00mil 690.00mil] [110.00mil 625.00mil] [425.00mil 625.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-		[275.00mil 645.00mil] [425.00mil 645.00mil] [425.00mil 690.00mil] [275.00mil 690.00mil] 
+		[110.00mil 690.00mil] [320.00mil 690.00mil] [320.00mil 545.00mil] [110.00mil 545.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[425.00mil 380.00mil] [425.00mil 520.00mil] [235.00mil 520.00mil] [215.00mil 500.00mil] [110.00mil 500.00mil] 
+		[110.00mil 380.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[110.00mil 555.00mil] [110.00mil 515.00mil] [210.00mil 515.00mil] [250.00mil 555.00mil] 
 	)
 )
 Layer(2 "solder")
 (
-	Line[375.00mil 360.00mil 270.00mil 360.00mil 10.00mil 16.00mil ""]
 	Polygon("clearpoly")
 	(
-		[305.00mil 505.00mil] [230.00mil 505.00mil] [230.00mil 350.00mil] [305.00mil 350.00mil] 
+		[110.00mil 555.00mil] [425.00mil 555.00mil] [425.00mil 690.00mil] [110.00mil 690.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-		[185.00mil 465.00mil] [115.00mil 465.00mil] [115.00mil 650.00mil] [185.00mil 650.00mil] 
+		[370.00mil 310.00mil] [115.00mil 310.00mil] [115.00mil 370.00mil] [370.00mil 370.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-		[425.00mil 690.00mil] [115.00mil 690.00mil] [115.00mil 515.00mil] [425.00mil 515.00mil] 
+		[110.00mil 565.00mil] [110.00mil 515.00mil] [210.00mil 515.00mil] [260.00mil 565.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[110.00mil 380.00mil] [330.00mil 380.00mil] [330.00mil 500.00mil] [110.00mil 500.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[330.00mil 490.00mil] [330.00mil 520.00mil] [235.00mil 520.00mil] [205.00mil 490.00mil] 
 	)
 )
 Layer(3 "outline")
@@ -915,6 +929,13 @@ Layer(3 "outline")
 )
 Layer(4 "silk")
 (
+	Line[435.00mil 300.00mil 85.00mil 300.00mil 10.00mil 16.00mil "clearline"]
+	Line[85.00mil 300.00mil 85.00mil 700.00mil 10.00mil 16.00mil "clearline"]
+	Line[85.00mil 700.00mil 435.00mil 700.00mil 10.00mil 16.00mil "clearline"]
+	Line[435.00mil 700.00mil 435.00mil 300.00mil 10.00mil 16.00mil "clearline"]
+	Text[295.00mil 390.00mil 0 166 "+" "clearline,onsolder"]
+	Text[275.00mil 320.00mil 2 74 "DCCSA" "clearline,onsolder"]
+	Text[120.00mil 320.00mil 2 74 "1" "clearline,onsolder"]
 )
 Layer(5 "silk")
 (

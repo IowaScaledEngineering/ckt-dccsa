@@ -22,17 +22,13 @@ T 2800 5300 5 10 1 1 0 7 1
 value=470uF
 T 2800 5100 5 10 1 1 0 7 1
 footprint=2924
-T 4000 6100 5 10 0 1 0 6 1
-device=TCN4477M016R0100
 }
 C 5400 4900 1 0 0 schottky-diode-1.sym
 {
-T 5800 5500 5 10 0 0 0 0 1
-device=CDBM140G
 T 5600 5100 5 10 1 1 0 8 1
-refdes=D2
-T 5400 4900 5 10 0 0 0 0 1
-footprint=SOD123T
+refdes=D1
+T 5400 4900 5 10 1 1 0 2 1
+footprint=DO-219AD
 }
 C 5400 5900 1 0 0 resistor-1.sym
 {
@@ -43,7 +39,7 @@ refdes=R1
 T 5850 5850 5 10 1 1 0 5 1
 value=100Ω
 T 6200 6100 5 10 1 1 0 0 1
-footprint=1206
+footprint=0805
 }
 C 4600 4900 1 90 0 zener-1.sym
 {
@@ -51,7 +47,7 @@ T 4000 5300 5 10 0 0 90 0 1
 device=ZENER_DIODE
 T 4300 5600 5 10 1 1 0 6 1
 refdes=Z1
-T 4600 4900 5 10 0 0 0 0 1
+T 4400 6100 5 10 1 1 0 3 1
 footprint=SOD128
 }
 C 3600 4200 1 0 0 gnd-1.sym
@@ -80,8 +76,6 @@ T 1600 5300 5 10 1 1 0 7 1
 value=470uF
 T 1600 5100 5 10 1 1 0 7 1
 footprint=2924
-T 2800 6100 5 10 0 1 0 6 1
-device=TCN4477M016R0100
 }
 N 1900 6000 1900 5800 4
 N 1900 4900 1900 4700 4
