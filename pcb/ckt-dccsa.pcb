@@ -808,8 +808,10 @@ Via[330.00mil 300.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
 
 Element["hidename,onsolder" "2924" "C2" "470uF" 230.00mil 345.00mil -31.50mil -31.50mil 1 100 "auto"]
 (
-	Pad[-1.3000mm -2.7000mm 1.3000mm -2.7000mm 2.2000mm 0.0000 2.3524mm "1" "1" "onsolder,square"]
-	Pad[-0.7000mm 2.1000mm 0.7000mm 2.1000mm 3.4000mm 0.0000 3.5524mm "2" "2" "onsolder,square"]
+	Pad[-1.3000mm -2.7000mm 1.3000mm -2.7000mm 2.2000mm 0.0000 2.3524mm "1" "1" "onsolder,square,nopaste"]
+	Pad[-0.7000mm 2.1000mm 0.7000mm 2.1000mm 3.4000mm 0.0000 3.5524mm "2" "2" "onsolder,square,nopaste"]
+	Pad[-1.3000mm -2.7000mm 1.3000mm -2.7000mm 1.2000mm 0.0000 2.3524mm "1" "1" "onsolder,square"]
+	Pad[-0.7000mm 2.1000mm 0.7000mm 2.1000mm 2.0000mm 0.0000 3.5524mm "2" "2" "onsolder,square"]
 	ElementLine [-3.1500mm -3.6500mm -3.1500mm 3.6500mm 10.00mil]
 	ElementLine [3.1500mm -3.6500mm 3.1500mm 3.6500mm 10.00mil]
 
@@ -817,8 +819,10 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 230.00mil 345.00mil -31.50mil -3
 
 Element["hidename" "2924" "C1" "470uF" 230.00mil 345.00mil 25.00mil 0.0000 2 100 ""]
 (
-	Pad[-1.3000mm -2.7000mm 1.3000mm -2.7000mm 2.2000mm 0.0000 2.3524mm "1" "1" "square"]
-	Pad[-0.7000mm 2.1000mm 0.7000mm 2.1000mm 3.4000mm 0.0000 3.5524mm "2" "2" "square"]
+	Pad[-1.3000mm -2.7000mm 1.3000mm -2.7000mm 2.2000mm 0.0000 2.3524mm "1" "1" "square,nopaste"]
+	Pad[-0.7000mm 2.1000mm 0.7000mm 2.1000mm 3.4000mm 0.0000 3.5524mm "2" "2" "square,nopaste"]
+	Pad[-1.3000mm -2.7000mm 1.3000mm -2.7000mm 1.2000mm 0.0000 2.3524mm "1" "1" "square"]
+	Pad[-0.7000mm 2.1000mm 0.7000mm 2.1000mm 2.0000mm 0.0000 3.5524mm "2" "2" "square"]
 	ElementLine [3.1500mm -3.6500mm 3.1500mm 3.6500mm 10.00mil]
 	ElementLine [-3.1500mm -3.6500mm -3.1500mm 3.6500mm 10.00mil]
 
