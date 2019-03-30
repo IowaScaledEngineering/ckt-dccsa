@@ -795,10 +795,8 @@ Symbol['~' 12.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "5.00mil")
-Via[355.00mil 130.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
-Via[355.00mil 160.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
-Via[155.00mil 130.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
-Via[155.00mil 160.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[360.00mil 130.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
+Via[360.00mil 160.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
 Via[150.00mil 340.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
 Via[185.00mil 340.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
 Via[220.00mil 340.00mil 28.00mil 16.00mil 0.0000 12.00mil "" "thermal(0S,1S)"]
@@ -849,15 +847,6 @@ Element["hidename" "0805" "R1" "100?" 405.00mil 177.00mil -31.50mil 31.50mil 1 1
 
 	)
 
-Element["hidename" "DO-219AD" "D1" "unknown" 290.00mil 145.00mil 10.00mil 25.00mil 0 100 ""]
-(
-	Pad[0.0000 0.0000 0.0000 0.0000 0.8000mm 0.0000 0.9524mm "1" "1" "square,edge2"]
-	Pad[-2.3500mm 0.0000 -1.4500mm 0.0000 1.1000mm 0.0000 1.2524mm "2" "2" "square"]
-	ElementLine [-2.4000mm -0.7000mm -0.1000mm -0.7000mm 10.00mil]
-	ElementLine [-2.4000mm 0.7000mm -0.1000mm 0.7000mm 10.00mil]
-
-	)
-
 Element["hidename,onsolder" "" "J1" "" 405.00mil 205.00mil 0.0000 0.0000 0 100 "auto"]
 (
 	Pad[0.0000 -50.00mil 0.0000 45.00mil 80.00mil 0.0000 88.00mil "" "1" "onsolder,square"]
@@ -869,19 +858,26 @@ Element["hidename,onsolder" "" "J2" "" 405.00mil 415.00mil 0.0000 0.0000 0 100 "
 	Pad[0.0000 -55.00mil 0.0000 40.00mil 80.00mil 0.0000 88.00mil "" "1" "onsolder,square"]
 
 	)
+
+Element["hidename" "DO-219AD" "D1" "unknown" 140.00mil 145.00mil -10.00mil -25.00mil 2 100 ""]
+(
+	Pad[0.0000 0.0000 0.0000 0.0000 0.8000mm 0.0000 0.9524mm "1" "1" "square"]
+	Pad[1.4500mm 0.0000 2.3500mm 0.0000 1.1000mm 0.0000 1.2524mm "2" "2" "square,edge2"]
+	ElementLine [0.1000mm 0.7000mm 2.4000mm 0.7000mm 10.00mil]
+	ElementLine [0.1000mm -0.7000mm 2.4000mm -0.7000mm 10.00mil]
+
+	)
+
+Element["hidename" "" "J3" "" 275.00mil 130.00mil 0.0000 0.0000 0 100 ""]
+(
+	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+
+	)
 Layer(1 "component")
 (
 	Polygon("clearpoly")
 	(
-		[270.00mil 125.00mil] [310.00mil 125.00mil] [310.00mil 205.00mil] [270.00mil 205.00mil] 
-	)
-	Polygon("clearpoly")
-	(
-		[335.00mil 115.00mil] [445.00mil 115.00mil] [445.00mil 175.00mil] [335.00mil 175.00mil] 
-	)
-	Polygon("clearpoly")
-	(
-		[135.00mil 115.00mil] [260.00mil 115.00mil] [260.00mil 175.00mil] [135.00mil 175.00mil] 
+		[175.00mil 115.00mil] [445.00mil 115.00mil] [445.00mil 175.00mil] [175.00mil 175.00mil] 
 	)
 	Polygon("clearpoly")
 	(
@@ -893,12 +889,16 @@ Layer(1 "component")
 	)
 	Polygon("clearpoly")
 	(
-		[445.00mil 185.00mil] [445.00mil 325.00mil] [255.00mil 325.00mil] [235.00mil 305.00mil] [130.00mil 305.00mil] 
-		[130.00mil 185.00mil] 
+		[445.00mil 185.00mil] [445.00mil 325.00mil] [255.00mil 325.00mil] [235.00mil 305.00mil] [120.00mil 305.00mil] 
+		[120.00mil 185.00mil] 
 	)
 	Polygon("clearpoly")
 	(
 		[130.00mil 360.00mil] [130.00mil 320.00mil] [230.00mil 320.00mil] [270.00mil 360.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[120.00mil 125.00mil] [160.00mil 125.00mil] [160.00mil 205.00mil] [120.00mil 205.00mil] 
 	)
 )
 Layer(2 "solder")
@@ -939,7 +939,7 @@ Layer(4 "silk")
 	Line[455.00mil 505.00mil 455.00mil 105.00mil 10.00mil 16.00mil "clearline"]
 	Text[315.00mil 195.00mil 0 166 "+" "clearline,onsolder"]
 	Text[295.00mil 125.00mil 2 74 "DCCSA" "clearline,onsolder"]
-	Text[140.00mil 125.00mil 2 74 "1" "clearline,onsolder"]
+	Text[140.00mil 125.00mil 2 74 "2" "clearline,onsolder"]
 )
 Layer(5 "silk")
 (
@@ -961,14 +961,15 @@ NetList()
 	(
 		Connect("C1-1")
 		Connect("C2-1")
-		Connect("D2-1")
+		Connect("D1-1")
 		Connect("R1-1")
 		Connect("Z1-2")
 	)
 	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("D2-2")
+		Connect("D1-2")
 		Connect("J1-1")
+		Connect("J3-1")
 		Connect("R1-2")
 	)
 )
