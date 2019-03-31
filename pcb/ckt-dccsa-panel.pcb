@@ -942,13 +942,13 @@ Element["hidename" "DO-219AD" "D1" "unknown" 140.00mil 145.00mil -10.00mil -25.0
 
 Element["hidename" "" "J3" "" 275.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
 Element["hidename" "" "J3" "" 735.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
@@ -1018,7 +1018,7 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 690.00mil 345.00mil -31.50mil -3
 
 Element["hidename" "" "J3" "" 1195.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
@@ -1088,7 +1088,7 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 1150.00mil 345.00mil -31.50mil -
 
 Element["hidename" "" "J3" "" 1655.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
@@ -1158,7 +1158,7 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 1610.00mil 345.00mil -31.50mil -
 
 Element["hidename" "" "J3" "" 2115.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
@@ -1228,7 +1228,7 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 2070.00mil 345.00mil -31.50mil -
 
 Element["hidename" "" "J3" "" 2575.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
@@ -1298,7 +1298,7 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 2530.00mil 345.00mil -31.50mil -
 
 Element["hidename" "" "J3" "" 3035.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
@@ -1368,7 +1368,7 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 2990.00mil 345.00mil -31.50mil -
 
 Element["hidename" "" "J3" "" 3495.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
@@ -1438,7 +1438,7 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 3450.00mil 345.00mil -31.50mil -
 
 Element["hidename" "" "J3" "" 3955.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 
@@ -1508,7 +1508,7 @@ Element["hidename,onsolder" "2924" "C2" "470uF" 3910.00mil 345.00mil -31.50mil -
 
 Element["hidename" "" "J3" "" 4415.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 

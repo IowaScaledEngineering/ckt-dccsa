@@ -870,7 +870,7 @@ Element["hidename" "DO-219AD" "D1" "unknown" 140.00mil 145.00mil -10.00mil -25.0
 
 Element["hidename" "" "J3" "" 275.00mil 130.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[20.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
+	Pad[25.00mil 15.00mil 35.00mil 15.00mil 60.00mil 0.0000 68.00mil "" "1" "square"]
 
 	)
 Layer(1 "component")
