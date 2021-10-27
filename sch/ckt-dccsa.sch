@@ -48,9 +48,9 @@ C 4600 4900 1 90 0 zener-1.sym
 T 4300 5600 5 10 1 1 0 6 1
 refdes=Z1
 T 4400 6100 5 10 1 1 0 3 1
-footprint=SOD128
+footprint=SOD123T
 T 4400 6300 5 10 1 1 0 3 1
-device=PDZVTR13A
+device=BZD27C13PW
 }
 C 3600 4200 1 0 0 gnd-1.sym
 N 6300 5200 6600 5200 4
